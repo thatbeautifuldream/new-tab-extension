@@ -7,7 +7,6 @@ import path from "path";
 export default defineConfig({
   plugins: [
     react(),
-    // @ts-expect-error : tailwindcss is not typed
     tailwindcss(),
     viteStaticCopy({
       targets: [
